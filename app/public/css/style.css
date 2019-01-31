@@ -1,0 +1,72 @@
+.jumbotron {
+  background: rgb(230, 26, 36);
+  border-bottom: solid black 30px;
+  border-radius: 0;
+}
+
+.display-4,
+.lead,
+.home-text {
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.display-4 {
+  font-weight: 900;
+}
+
+.home-text {
+  font-style: italic;
+}
+
+#pokeball-center {
+  color: black;
+  background-color: white;
+  border: solid black 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50% !important;
+  margin-bottom: -150px;
+  font-size: 63px;
+}
+
+#pokeball-center:focus {
+  box-shadow: 0 0 0 0.2rem white;
+}
+
+.survey-body {
+  background: url(../images/content-bg.png);
+  background-repeat: repeat;
+}
+
+.pokemon-bg {
+  background: url(../images/content-bg-dark.png) !important;
+  background-repeat: repeat;
+  color: white;
+}
+
+.card-body {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.card-img-top {
+  filter: contrast(1.2);
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+footer {
+  background: rgb(49, 49, 49);
+  color: white;
+  text-align: center;
+  height: 80px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
