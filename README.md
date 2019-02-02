@@ -6,7 +6,7 @@ Express is used to handle routing and deployed through Heroku for free server su
 
 ### Link to Deployed Website
 
-https://drive.google.com/file/d/1Tx6tYyLKhqNayR3ijgjImF5w91LA-zwO/view?usp=sharing
+https://pokematch-app.herokuapp.com/
 
 ### Skills Learned
 
