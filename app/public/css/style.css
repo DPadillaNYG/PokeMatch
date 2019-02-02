@@ -93,3 +93,17 @@
   height: 100%;
   align-items: center;
 }
+
+.swal2-popup #swal2-content {
+  font-family: "Montserrat Alternates", sans-serif !important;
+  font-style: italic !important;
+  color: white !important;
+}
+
+.swal2-popup .swal2-title {
+  color: white !important;
+}
+
+.swal2-popup {
+  background: url(../images/content-bg-darker.png) !important;
+}
