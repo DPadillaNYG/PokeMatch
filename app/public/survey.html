@@ -10,171 +10,221 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500,500i,700"
+      href="https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat+Alternates:500,500i,700"
       rel="stylesheet"
     />
     <title>PokeMatch | Survey</title>
   </head>
 
   <body class="survey-body">
-    <form>
-      <div class="row">
-        <div class="col-10 mx-auto">
-          <div class="card">
-            <img src="images/pokeball.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <div class="form-group text-center">
-                <label for="trainerName">Trainer Name (Required)</label>
-                <input
-                  type="text"
-                  class="form-control text-center"
-                  id="trainerName"
-                  placeholder="Ash Ketchum"
-                />
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-12 mx-auto">
+            <div class="card">
+              <img src="images/pokeball.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="form-group text-center">
+                  <label for="trainerName" id="trainerNameFont"
+                    >TRAINER NAME</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control text-center"
+                    id="trainerName"
+                    placeholder="Ash Ketchum"
+                    required
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-10 mt-4 mx-auto">
-          <div class="card">
-            <img src="images/lycanroc.jpg" class="card-img-top" alt="..." />
-            <div class="card-body pokemon-bg">
-              <div class="form-group">
-                <label id="labelOne" for="questionOne"
-                  >If you were a POKéMON, how fast do you see yourself leveling
-                  up on a scale of 1 to 5?</label
-                >
-                <select class="form-control" id="questionOne">
-                  <option value="1">1 (Slow)</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5 (Fast)</option>
-                </select>
+        <div class="row">
+          <div class="col-12 mt-4 mx-auto">
+            <div class="card">
+              <img src="images/lycanroc.jpg" class="card-img-top" alt="..." />
+              <div class="card-body pokemon-bg">
+                <div class="form-group">
+                  <label id="labelOne" for="questionOne"
+                    >If you were a POKéMON, how fast do you see yourself
+                    leveling up on a scale of 1 to 5?</label
+                  >
+                  <select class="form-control" required id="questionOne">
+                    <option value="1">1 (Slow)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Fast)</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-10 mt-4 mx-auto">
-          <div class="card">
-            <img src="images/ninetales.jpg" class="card-img-top" alt="..." />
-            <div class="card-body pokemon-bg">
-              <div class="form-group">
-                <label id="labelTwo" for="questionTwo"
-                  >If you were a POKéMON, how powerful do you think you would be
-                  on a scale of 1 to 5?</label
-                >
-                <select class="form-control" id="questionTwo">
-                  <option value="1">1 (Weakest)</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5 (Strongest)</option>
-                </select>
+        <div class="row">
+          <div class="col-12 mt-4 mx-auto">
+            <div class="card">
+              <img src="images/ninetales.jpg" class="card-img-top" alt="..." />
+              <div class="card-body pokemon-bg">
+                <div class="form-group">
+                  <label id="labelTwo" for="questionTwo"
+                    >If you were a POKéMON, how powerful do you think you would
+                    be on a scale of 1 to 5?</label
+                  >
+                  <select class="form-control" required id="questionTwo">
+                    <option value="1">1 (Weakest)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongest)</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-10 mt-4 mx-auto">
-          <div class="card">
-            <img src="images/decidueye.jpg" class="card-img-top" alt="..." />
-            <div class="card-body pokemon-bg">
-              <div class="form-group">
-                <label id="labelThree" for="questionThree"
-                  >If you were a POKéMON, how difficult would it be to catch you
-                  on a scale of 1 to 5?</label
-                >
-                <select class="form-control" id="questionThree">
-                  <option value="1">1 (Pokeball)</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5 (Masterball)</option>
-                </select>
+        <div class="row">
+          <div class="col-12 mt-4 mx-auto">
+            <div class="card">
+              <img src="images/decidueye.jpg" class="card-img-top" alt="..." />
+              <div class="card-body pokemon-bg">
+                <div class="form-group">
+                  <label id="labelThree" for="questionThree"
+                    >If you were a POKéMON, how difficult would it be to catch
+                    you on a scale of 1 to 5?</label
+                  >
+                  <select class="form-control" required id="questionThree">
+                    <option value="1">1 (Pokeball)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Masterball)</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-10 mt-4 mx-auto">
-          <div class="card">
-            <img src="images/hawlucha.jpg" class="card-img-top" alt="..." />
-            <div class="card-body pokemon-bg">
-              <div class="form-group">
-                <label id="labelFour" for="questionFour"
-                  >If you were a POKéMON, how tall do you see yourself compared
-                  to others on a scale of 1 to 5?</label
-                >
-                <select class="form-control" id="questionFour">
-                  <option value="1">1 (Smallest)</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5 (Tallest)</option>
-                </select>
+        <div class="row">
+          <div class="col-12 mt-4 mx-auto">
+            <div class="card">
+              <img src="images/hawlucha.jpg" class="card-img-top" alt="..." />
+              <div class="card-body pokemon-bg">
+                <div class="form-group">
+                  <label id="labelFour" for="questionFour"
+                    >If you were a POKéMON, how tall do you see yourself
+                    compared to others on a scale of 1 to 5?</label
+                  >
+                  <select class="form-control" required id="questionFour">
+                    <option value="1">1 (Smallest)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Tallest)</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-10 mt-4 mx-auto">
-          <div class="card">
-            <img src="images/venasaur.jpg" class="card-img-top" alt="..." />
-            <div class="card-body pokemon-bg">
-              <div class="form-group">
-                <label id="labelFive" for="questionFive"
-                  >If you were a POKéMON, how heavy do you see yourself compared
-                  to others on a scale of 1 to 5?</label
-                >
-                <select class="form-control" id="questionFive">
-                  <option value="1">1 (Lightest)</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5 (Heaviest)</option>
-                </select>
+        <div class="row">
+          <div class="col-12 mt-4 mx-auto">
+            <div class="card">
+              <img src="images/venasaur.jpg" class="card-img-top" alt="..." />
+              <div class="card-body pokemon-bg">
+                <div class="form-group">
+                  <label id="labelFive" for="questionFive"
+                    >If you were a POKéMON, how heavy do you see yourself
+                    compared to others on a scale of 1 to 5?</label
+                  >
+                  <select class="form-control" required id="questionFive">
+                    <option value="1">1 (Lightest)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Heaviest)</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+
+        <div class="row">
+          <div class="col-12 mt-4 mx-auto">
+            <input type="submit" id="submitBtn" class="btn btn-primary" />
+          </div>
+        </div>
+      </form>
 
       <div class="row">
-        <div class="col-10 mt-4 mx-auto">
-          <button type="submit" id="submitBtn" class="btn btn-primary">
-            Submit
-          </button>
+        <div class="col-12 mt-4 mx-auto">
+          <p>
+            <a href="/api/trainers">API POKéMON Trainers</a> |
+            <a href="/api/pokemon">API PokéData</a>
+          </p>
         </div>
       </div>
-    </form>
+    </div>
 
-    <footer>
-      <div class="row">
-        <div class="col-10 mt-4 mx-auto">
-          <p>&copy; Copyright 2018 - PokéMatch, LLC.</p>
-        </div>
-      </div>
-    </footer>
+    <div id="footer">
+      <div class="footer-text"><p>© Copyright 2018 - PokéMatch, LLC.</p></div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript">
+      function clearValues() {
+        $("#trainerName").val("");
+        $("#questionOne").val("");
+        $("#questionTwo").val("");
+        $("#questionThree").val("");
+        $("#questionFour").val("");
+        $("#questionFive").val("");
+      }
+
+      clearValues();
+
+      $("#submitBtn").on("click", function(event) {
+        var newTrainer = {
+          name: $("#trainerName")
+            .val()
+            .trim(),
+          answers: [
+            $("#questionOne").val(),
+            $("#questionTwo").val(),
+            $("#questionThree").val(),
+            $("#questionFour").val(),
+            $("#questionFive").val()
+          ]
+        };
+        console.log(newTrainer);
+
+        if (
+          $("#trainerName").val() !== "" &&
+          $("#questionOne").val() !== null &&
+          $("#questionTwo").val() !== null &&
+          $("#questionThree").val() !== null &&
+          $("#questionFour").val() !== null &&
+          $("#questionFive").val() !== null
+        ) {
+          $.post("/api/trainers", newTrainer, function(data) {
+            alert(newTrainer.name + " has successfully completed the survey.");
+            clearValues();
+          });
+        }
+      });
+    </script>
   </body>
 </html>

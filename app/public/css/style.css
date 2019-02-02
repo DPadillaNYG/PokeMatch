@@ -2,6 +2,14 @@
   background: rgb(230, 26, 36);
   border-bottom: solid black 30px;
   border-radius: 0;
+  position: relative;
+  height: 400px;
+}
+
+@media (min-width: 0) {
+  .jumbotron {
+    padding: 0 !important;
+  }
 }
 
 .display-4,
@@ -24,10 +32,13 @@
   background-color: white;
   border: solid black 20px;
   width: 150px;
-  height: 150px;
   border-radius: 50% !important;
-  margin-bottom: -150px;
   font-size: 63px;
+}
+
+.pokeball-center {
+  position: relative;
+  bottom: -302px;
 }
 
 #pokeball-center:focus {
@@ -62,11 +73,23 @@
   font-weight: 900;
 }
 
-footer {
+#trainerNameFont {
+  font-family: "Bungee Shade", cursive;
+  font-size: 25px;
+}
+
+#footer {
   background: rgb(49, 49, 49);
   color: white;
   text-align: center;
   height: 80px;
   margin-bottom: 0;
   margin-top: 20px;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
 }
