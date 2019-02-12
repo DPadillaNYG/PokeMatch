@@ -1,6 +1,6 @@
-# PokéMatch w/ Node.js & Express
+# PokéMatch
 
-PokéMatch is a compatibility-based application, sort of like those trivia websites that determine which movie character you are based on a series of questions. This is my first full-stack individual project. The application works off of answers given to the server by the user, which will then be compared to answers of pre-existing pokemon within /api/pokemon. The application will then conclude by displaying the name and picture of the pokemon with the best overall match.
+PokéMatch is a compatibility-based application, sort of like those trivia websites that determine which movie character you are based on a series of questions. This is my first full-stack individual project using both Node.js and Express. The application works off of answers given to the server by the user, which will then be compared to answers of pre-existing pokemon within /api/pokemon. The application will then conclude by displaying the name and picture of the pokemon with the best overall match.
 
 Express is used to handle routing and deployed through Heroku for free server support.
 
